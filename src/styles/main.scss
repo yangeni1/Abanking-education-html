@@ -321,7 +321,7 @@ p {
 }
 
 .tools {
-    padding-top: 140px;
+    padding-top: 126px;
 
     &__title {
         font-size: 54px;
@@ -342,12 +342,12 @@ p {
     &__list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 96px 24px;
+        gap: 98px 24px;
         margin-top: 64px;
     }
 
     &__more {
-        margin-top: 72px;
+        margin-top: 126px;
         text-align: center;
     }
 }
@@ -355,7 +355,7 @@ p {
 .card {
     display: flex;
     flex-direction: column;
-    min-height: 292px;
+    min-height: 296px;
     padding: 32px;
     border-radius: 12px;
     background-color: transparent;
@@ -364,6 +364,7 @@ p {
     &:hover,
     &_active {
         background-color: $color-card;
+        background-image: radial-gradient(120% 130% at 100% 0%, rgba($color-accent, 0.14), transparent 58%);
         box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
 
         .card__action_like {
@@ -375,10 +376,10 @@ p {
         }
 
         .card__visit {
-            min-width: 128px;
-            height: 46px;
+            min-width: 106px;
+            height: 42px;
             margin-right: 0;
-            padding: 0 32px;
+            padding: 0 28px;
             border-radius: 8px;
             background-color: $color-accent;
             color: #fff;
@@ -498,12 +499,12 @@ p {
 }
 
 .footer {
-    margin-top: 120px;
+    margin-top: 190px;
 }
 
 .brands {
     position: relative;
-    padding: 64px 80px 80px;
+    padding: 69px 80px 67px;
     border-radius: 24px 24px 0 0;
     background-color: $color-panel;
     background-image: radial-gradient(70% 120% at 0% 0%, rgba($color-accent, 0.06), transparent 55%);
